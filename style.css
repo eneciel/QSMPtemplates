@@ -8,6 +8,7 @@
         --bgcolor: #1e1e1e;
         --textcolor: #fff;
         --red: #d50000;
+        --grey: #9e9e9e;
     }
 }
 
@@ -16,7 +17,15 @@
         --bgcolor: #fff;
         --textcolor: #1e1e1e;
         --red: #d50000;
+        --grey: #dbdbdb;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+    
 }
 
 html {
@@ -30,7 +39,7 @@ html {
 body {
     width: 50vw;
     padding: 0;
-    margin: 12vh auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -64,6 +73,10 @@ p {
     padding: 0;
 }
 
+span {
+    font-weight: 700;
+}
+
 a {
     color: var(--textcolor);
     font-weight: 700;
@@ -79,6 +92,13 @@ button {
     box-shadow: 1px 0 8px 0 var(--textcolor);
     padding: 1vh 1vw;
     margin: 0 1vw;
+}
+
+nav {
+    color: var(--grey);
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
 }
 
 .section {
