@@ -22,8 +22,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        width: 80vw;
+    }
+
     .row {
-        display: block;
+        flex-direction: column;
+        justify-content: center;
     }
     
 }
@@ -38,7 +43,7 @@ html {
 
 body {
     width: 50vw;
-    padding: 0;
+    padding: 0 0 24vh;
     margin: 0 auto;
 }
 
