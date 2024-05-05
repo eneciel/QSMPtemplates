@@ -50,6 +50,12 @@
                 <p>Teile nicht die Dateien mit anderen, sondern sende den <span>Link</span>.</p>
                 <p>Solltest du Fehler finden, <span>schicke mir eine DM</span>.</p>
             </div>
+            <div class="zh-cn">
+                <p>该表格由 <a href="https://twitter.com/NaCl_HQ" target="_blank">NaCl</a>制作。</p>
+                <h3>请勿将右上角的制作者标识去除。</h3>
+                <h3>请勿擅自编辑或者删除表格的某一部分。</h3>
+                <p>请分享源 <span>link</span>，不要分享源文件。</p>
+                <p>如果您发现任何错误，<span>请通过私信联系我</span>。</p></div>
         </div>
         
         <h1>Notes</h1>
@@ -100,6 +106,13 @@
                 <p>Danke <span>lurain_</span> für die Übersetzung</p>
                 <p>Letztes Update: 3.Mai 2024</p>
             </div>
+            <div class="zh-cn">
+                <p>QSMP标志的版权归属于 <a href="https://twitter.com/QuackityStudios" target="_blank">Quackity Studios</a>。</p>
+                <p>部分渲染模型由 <a href="https://twitter.com/TukimiceTK" target="_blank">@TukimiceTK</a>制作, 
+                    所有图像都来源于 <a href="https://qsmp.fandom.com/wiki/QSMP_Wiki" target="_blank">QSMP Wiki</a>。</p>
+                <p>这份表格于2024年4月20日创建。</p>
+                <p>谢谢 <a href="https://twitter.com/PeecoA">@PeecoA</a> 你的翻译</p>
+                <p>最后更新于: 2024年5月5日</p></div>
         </div>
 
         <h1>Guide</h1>
@@ -140,6 +153,12 @@
                 <p>Die Schriftart die ich benutzt habe heißt <span>"Pretendard"</span>. <br>Sie ist kostenlos und kommt als erstes auf, wenn man danach sucht.</p>
                 <p>PDF's können ganz einfach verändert werden, wenn du Acrobat oder Adobe Illostrator hast.</p>
                 <p>Information, wie the Namen der Charaktere, können auf dem <a href="https://qsmp.fandom.com/de/wiki/QSMP_Wiki" target="_blank">QSMP Wiki</a> gefunden werden.</p>
+            </div>
+            <div class="zh-cn">
+                <p>PNG, PDF, PSD文件均提供使用! 您也可以将文件转为任何您想要的格式来使用。</p>
+                <p>使用的字体为 <a href="https://www.behance.net/gallery/150078967/MIUI-System-Font-MiSans">"MiSans"</a>。</p>
+                <p>如果您下载了Acrobat或者Adobe Illustrator, 则可以轻松编辑PDF文件。</p>
+                <p>如角色名称这类信息均可在 <a href="https://qsmp.fandom.com/wiki/QSMP_Wiki" target="_blank">QSMP Wiki</a>中找到。</p>
             </div>
         </div>
 
@@ -192,6 +211,14 @@
                 <a href="files/german/NaCl_QSMPTEMPLATE_De.psd" download><h4>PSD</h4></a>
             </div>
         </div>
+        <div class="row simplifiedCH">
+            <h2>中文（简体）</h2>
+            <div>
+                <a href="files/zh-cn/NaCl_QSMPTEMPLATE_zh-cn.png" download><h4>PNG</h4></a>
+                <a href="files/zh-cn/NaCl_QSMPTEMPLATE_zh-cn.pdf" download><h4>PDF</h4></a>
+                <a href="files/zh-cn/NaCl_QSMPTEMPLATE_zh-cn.psd" download><h4>PSD</h4></a>
+            </div>
+        </div>
 
         <script>
             const userLanguage = navigator.language || navigator.userLanguage;
@@ -199,14 +226,16 @@
             // 사용자 언어에 따라 적절한 내용 표시
             if (userLanguage.startsWith('de')) {
                 displayContent('deutsch');
+            } else if (userLanguage.startsWith('zh-CN')) {
+                displayContent('zh-cn');
             } else if (userLanguage.startsWith('ko')) {
                 displayContent('korean');
-            } else if (userLanguage.startsWith('es')) {
-                displayContent('spanish');
-            } else if (userLanguage.startsWith('pt')) {
-                displayContent('portuguese');
             } else if (userLanguage.startsWith('fr')) {
                 displayContent('french');
+            } else if (userLanguage.startsWith('pt')) {
+                displayContent('portuguese');
+            } else if (userLanguage.startsWith('es')) {
+                displayContent('spanish');
             } else {
                 displayContent('english');
             }

@@ -3,6 +3,18 @@
     src: url(PretendardVariable.woff2);
 }
 
+@font-face {
+    font-family: 'misans';
+    font-weight: bold;
+    src: url(MiSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'misans';
+    font-weight: normal;
+    src: url(MiSans-Regular.ttf);
+}
+
 @media (prefers-color-scheme: dark) {
     html {
         --bgcolor: #1e1e1e;
@@ -112,8 +124,13 @@ nav {
     padding: 2vh 0;
 }
 
-.english, .spanish, .portuguese, .french, .korean, .deutsch {
+.english, .spanish, .portuguese, .french, .korean, .deutsch, .zh-cn {
     display: none;
+}
+
+.simplifiedCH {
+    font-family: 'misans';
+    font-weight: normal;
 }
 
 .row {
@@ -142,5 +159,6 @@ nav {
 }
 
 .row div a h4 {
+    font-family: 'def';
     padding: 0 2vw;
 }
