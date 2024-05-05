@@ -100,6 +100,10 @@ a {
     padding: 0;
 }
 
+a:hover {
+    color: var(--grey);
+}
+
 button {
     font-size: 1em;
     font-weight: 700;
@@ -158,6 +162,7 @@ nav {
 
 .row div a {
     color: var(--bgcolor);
+    text-decoration: none;
     background-color: var(--textcolor);
     border-radius: 1em;
     margin: 1vh;
